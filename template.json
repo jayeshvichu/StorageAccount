@@ -3,8 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccounts_pipelineteststorage_name": {
-            "defaultValue": "StorageAccount",
             "type": "String"
+        },
+        "storageAccountType": {
+            "type": "string",
         }
     },
     "variables": {},
